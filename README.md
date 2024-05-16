@@ -10,4 +10,7 @@
 - Using GitHub Actions, publish the `index.html` file to GitHub Pages as a static HTML site.
 - Enable the setting to secure the GitHub Pages site with HTTPS.
 - Have the GitHub Pages site resolve to the custom domain `seaside-pass-lat-long-plot.neherdata.com` from the GitHub Pages settings panel. I’ve already configured the DNS on the registrar side to work with the domain, you just need to enable it.
-- THEN YOU’RE DONE! 
+- THEN YOU’RE DONE!
+
+* Pro Tip # 1 - create a conda environment to work inside of and install your python libraries in.
+* Pro Tip # 2 - use a Jupyter notebook. You’ll install it as a python library *after you’ve created and activated your Conda environment*.
